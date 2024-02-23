@@ -83,8 +83,8 @@ Esses resultados enfatizam a importância de selecionar a ferramenta adequada pa
 Para executar este projeto e reproduzir os resultados:
 
 1. Clone esse repositório
-2. `poetry init` , `poetry install` e `poetry shell`
-3. Execute o comando `python src/create_measurements.py` para gerar o arquivo de teste
+2.  Definir a versao do Python usando o `pyenv local 3.12.1`
+3. `poetry env use 3.12.1`, `poetry install --no-root` e `poetry lock --no-update`
 4. Tenha paciência e vá fazer um café, vai demorar uns 10 minutos para gerar o arquivo
 5. Certifique-se de instalar as versões especificadas das bibliotecas Dask, Polars e DuckDB
 6. Execute os scripts `python src/using_python.py`, `python src/using_pandas.py`, `python src/using_dask.py`, `python src/using_polars.py` e `python src/using_duckdb.py` através de um terminal ou ambiente de desenvolvimento que suporte Python.
@@ -130,23 +130,3 @@ Neste exemplo, apenas as primeiras 1000 linhas serão processadas.
 
 Ao executar o script, você verá a barra de progresso (se pv estiver instalado corretamente) e, eventualmente, a saída esperada no terminal ou em um arquivo de saída, se você decidir modificar o script para direcionar a saída.
 
-## Próximos passos
-
-Esse projeto faz parte da *Jornada de Dados*
-Nossa missão é fornecer o melhor ensino em engenharia de dados
-
-Se você quer:
-
-- Aprender sobre Duckdb e engenharia de dados
-- Construir uma base sólida em Python e SQL
-- Criar ou melhorar seu portfólio de dados
-- Criar ou aumentar o seu networking na área
-- Mudar ou dar o próximo passo em sua carreira
-
-A Jornada de Dados é o seu lugar
-
-[![Imagem](https://github.com/lvgalvao/data-engineering-roadmap/raw/main/pics/jornada.png)](https://www.jornadadedados2024.com.br/workshops)
-
-Para entrar na lista de espera clique no botao
-
-[![Imagem](https://raw.githubusercontent.com/lvgalvao/data-engineering-roadmap/main/pics/lista_de_espera.png)](https://forms.gle/hJMtRDP3MPBUGvwS7?orbt_src=orbt-vst-1RWyYmpICDu9gPknLgaD)
